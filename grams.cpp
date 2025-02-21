@@ -3,15 +3,17 @@ using namespace std;
 
 int main(){
 
- double pounds;
+ double grams;
 
 cout<<"Enter a Number You Want To Convert: ";
-cin>>pounds;
-double grams = pounds * .0022;
-cout<<"It Converted To: "<<grams;
+cin>>grams;
+double pounds = grams * 0.00220462;
+cout<<"It Converted To: "<<pounds;
 
 return 0;
 }
+
+
 
 
 
